@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* font family */
+  --font-serif: "Fraunces", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  /* Base palette */
+  --color-cream: #F7F4EE;
+  --color-cream-dim: #EAE4D6;
+  --color-gold: #B89A63;
+  --color-gold-bright: #D4B883;
+  --color-gold-deep: #8E7548;
+  --color-anthracite: #1F1F1F;
+  --color-anthracite-soft: #2B2B2A;
+  --color-charcoal-muted: #6B655A;
+}
+
+html,body{
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
